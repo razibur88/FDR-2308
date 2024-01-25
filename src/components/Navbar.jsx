@@ -45,7 +45,7 @@ const Navbar = () => {
               <h3 className="font-dms text-[14px]">Shop by Category</h3>
             </div>
             {cartShow && (
-              <div className="bg-[#262626] absolute left-0 top-[50px] w-full">
+              <div className="bg-[#262626] absolute left-0 top-[50px] z-50 w-full">
                 <ul>
                   <li className="font-dms font-normal text-[16px] text-white/50 py-3 px-4 hover:pl-6 hover:text-white ease-in duration-300">
                     Accesories
@@ -87,7 +87,7 @@ const Navbar = () => {
               </div>
             </div>
             {cartSec && (
-              <div className="absolute right-0 top-[50px]">
+              <div className="absolute right-0 top-[50px] z-50">
                 <div className="w-[300px] bg-[#F3F3F3]">
                   <div className="flex items-center justify-around py-3">
                     <div className="">
@@ -129,7 +129,7 @@ const Navbar = () => {
             )}
             {cartAcc && (
               <div className="">
-                <div className="bg-[#262626] absolute left-[150px] top-[50px] w-[200px]">
+                <div className="bg-[#262626] absolute left-[150px] top-[50px] w-[200px] z-50">
                   <ul>
                     <li className="font-dms font-normal text-[16px] text-white py-4 px-3 hover:bg-white hover:text-[#222] ease-in duration-300">
                       My Acoount

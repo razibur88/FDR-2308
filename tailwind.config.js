@@ -6,6 +6,9 @@ module.exports = {
       fontFamily: {
         dms: ["DM Sans", "sans-serif"],
       },
+      backgroundImage: {
+        banner: 'url("../src/assets/banner.png")',
+      },
     },
   },
   plugins: [],
